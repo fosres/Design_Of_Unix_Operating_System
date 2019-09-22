@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <fcntl.h>
 
-unsigned char buf[2048];
+static unsigned char buf[2048];
 
 int version = 1; // Chapter 2 will explain this
 
